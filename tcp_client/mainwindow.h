@@ -20,6 +20,8 @@ private:
     Ui::MainWindow *ui;
 public slots:
     void slot_for_tcp_client_connect();
+    void slot_for_send_data();
+    void slot_for_receive_data();
 };
 
 #endif // MAINWINDOW_H
